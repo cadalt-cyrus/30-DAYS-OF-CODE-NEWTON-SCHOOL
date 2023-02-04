@@ -1,0 +1,5 @@
+n = int(input())
+even_numbers = n // 2
+odd_numbers = n - even_numbers
+ways = even_numbers * odd_numbers
+print(ways)
