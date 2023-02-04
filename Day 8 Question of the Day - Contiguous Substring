@@ -1,0 +1,12 @@
+#include <bits/stdc++.h> // header f 
+using namespace std;
+
+int main() {// Your code here
+
+string s,t;
+cin >> s >> t; 
+if (s.find(t) != string::npos) 
+cout<<"Yes";
+else 
+cout<<"No"; return 0;
+}
